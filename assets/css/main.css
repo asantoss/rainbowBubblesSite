@@ -160,6 +160,12 @@ textarea {
     appearance: none;
 }
 
+#artwork {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1;
+}
+
 
 /* Basic */
 
@@ -801,7 +807,7 @@ input[type="radio"]+label:before {
 .image.main {
     display: block;
     margin: 2.5rem 0;
-    width: 100%;
+    width: 99%;
 }
 
 .image.main img {
