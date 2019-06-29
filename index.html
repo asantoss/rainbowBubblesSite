@@ -24,7 +24,7 @@
             <nav>
                 <ul>
                     <li><a href="#artwork">Artwork</a></li>
-                    <li><a href="https://www.youtube.com/channel/UCFysk_yP-t28poWFQzMRd7w/" target="blank">Youtube</a></li>
+                    <li><a href="#work">Youtube</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <!--<li><a href="#elements">Elements</a></li>-->
@@ -67,21 +67,27 @@
                     </div>
                 </div>
             </article>
-
             <!-- Work -->
             <article id="work">
-                <h2 class="major">Work</h2>
-                <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque
-                    lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+                <h2 class="major" id="youtubeHeader"></h2>
+                <div class="thumbnail">
+                    <div>
+                        <img src="" id="youtubeThumbnail" alt="">
+                    </div>
+                    <div id="youtubeSub">
+                        <div id="stats"></div>
+                        <div class="g-ytsubscribe" data-channelid="UCFysk_yP-t28poWFQzMRd7w" width="100px" data-count="hidden"></div>
+                    </div>
+                </div>
+                <br>
+                <div class="" id="player"></div>
             </article>
 
             <!-- About -->
             <article id="about">
                 <h2 class="major">About</h2>
                 <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-                <p>Emily Durette is a young aspiring artist based in Ontario, Canada. She sold her first piece during the ART ARMY market festival, from her first collection, "FANTASY FAIRYTALE," at only 10 years old.</p>
+                <p>Emily Durette is a young aspiring artist based in Ontario, Canada. She sold her first piece during the ART ARMY market festival, from her first collection, "FANTASY FAIRYTALE," at only 9 years old.</p>
             </article>
 
             <!-- Contact -->
@@ -370,19 +376,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <div id="bg"></div>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <script src="assets/js/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/slideshow.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
+    <script src="assets/js/youtubeAPI.js"></script>
 </body>
 
 </html>
