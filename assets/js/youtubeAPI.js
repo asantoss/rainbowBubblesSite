@@ -44,7 +44,9 @@
  var header = $('#youtubeHeader');
  var stats = $('#stats');
  var thumbnail = $('#youtubeThumbnail');
- $('#ytSub')
+ $('#ytSub').click(() => {
+
+ })
 
 
  var youtubeApi = 'https://www.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=UCFysk_yP-t28poWFQzMRd7w&key=AIzaSyDhsMWEF7AXzzvNW-ykOzaI5mdEPR8mTvE'
